@@ -1,0 +1,16 @@
+[workspace]
+channels = ["conda-forge"]
+name = "econ"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+jupyter = ">=1.1.1,<2"
+pandas = ">=3.0.6,<4"
+numpy = ">=2.5.3,<3"
+yfinance = ">=1.7.0,<2"
+statsmodels = ">=0.15.0,<0.16"
+scipy = ">=1.18.1,<2"
+matplotlib = ">=3.11.2,<4"

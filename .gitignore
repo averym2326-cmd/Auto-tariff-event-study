@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+hyundai.csv
+kia.csv
+gm.csv
+ford.csv
+kospi.csv
+sp.csv
+fx.csv
+# pixi environments
+.pixi/*
+!.pixi/config.toml
